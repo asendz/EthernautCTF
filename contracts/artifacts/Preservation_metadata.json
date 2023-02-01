@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_timeZone1LibraryAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_timeZone2LibraryAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_timeStamp",
+						"type": "uint256"
+					}
+				],
+				"name": "setFirstTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_timeStamp",
+						"type": "uint256"
+					}
+				],
+				"name": "setSecondTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeZone1Library",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeZone2Library",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16-Preservation.sol": "Preservation"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/16-Preservation.sol": {
+			"keccak256": "0x41985dacb0d3ca867c3700c98dfcebf0ea9275274058ac7ca9f1439085a073e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a0a6b25dad0e098f9d2d136a05248c08a7fefb0ad94e499d8556bef49bc0dfc",
+				"dweb:/ipfs/QmebzJgSR7JmWSaBFRVcWG3qyQKGtzQg5oJ8oZFoAzZKNu"
+			]
+		}
+	},
+	"version": 1
+}
