@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_password",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_password",
+						"type": "bytes32"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/08-Vault.sol": "Vault"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/08-Vault.sol": {
+			"keccak256": "0x5e4b4e16c9d90240d6d2db623a46a47b4f5347f3c928e53226ea90eccb107fc6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df1b2c8e9de9d359fcf8ce9212e3f66538e1e394c99446df0d2a11d6125ee3f4",
+				"dweb:/ipfs/QmNyyzhFwpGpfjJYFvtvajVA66LeeFNPtyvXeEdugT9kP2"
+			]
+		}
+	},
+	"version": 1
+}
